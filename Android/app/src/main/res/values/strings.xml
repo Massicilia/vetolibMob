@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">VetoLib</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_signup">Don\'t have an account ? Sign Up Now</string>
+    <string name="password_forgoten">Forgot Password?</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_appointment">Appointment</string>
+    <string name="action_sign_up_short">Sign Up</string>
+    <string name="signup_login">Already have an account ? Login</string>
+    <string name="prompt_name">Full Name</string>
+</resources>
