@@ -16,6 +16,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_appointment">Appointment</string>
+    <string name="title_chatbot">Chatbot</string>
     <string name="action_sign_up_short">Sign Up</string>
     <string name="signup_login">Already have an account ? Login</string>
     <string name="prompt_name">Full Name</string>

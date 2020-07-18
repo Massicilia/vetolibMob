@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ui.signup.SingUpActivity"
-            android:theme="@style/Theme.Design.NoActionBar">
+            android:theme="@style/Theme.Design.Light.NoActionBar">
         </activity>
         <activity
             android:name=".mainpage.MainMenuActivity"

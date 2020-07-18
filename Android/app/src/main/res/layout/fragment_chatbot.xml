@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainpage.ui.notifications.NotificationsFragment">
+    tools:context=".mainpage.ui.chatbot.ChatbotFragment">
 
-    <TextView
-        android:id="@+id/text_notifications"
+   <com.stfalcon.chatkit.messages.MessageInput
+       android:id="@+id/input"
+       android:layout_width="match_parent"
+       android:layout_height="180dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:inputHint="Enter your message"
+       />
+    <com.stfalcon.chatkit.messages.MessagesList
+        android:id="@+id/messagesList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="Chatbot Fragment"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/input" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
