@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vetolibMob.iml" filepath="$PROJECT_DIR$/.idea/modules/vetolibMob.iml" group="vetolibMob" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VetoLib.iml" filepath="$PROJECT_DIR$/.idea/modules/VetoLib.iml" group="VetoLib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/vetolibMob-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/vetolibMob-app.iml" group="VetoLib/app" />
     </modules>
   </component>
 </project>

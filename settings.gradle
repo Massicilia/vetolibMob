@@ -1,2 +1,6 @@
 include ':app'
-project(':app').projectDir = new File(rootDir, 'Android/app/')
+rootProject.name = 'VetoLib'
+//project(':app').projectDir = new File(rootDir, 'Android/app/')
+
+
+
