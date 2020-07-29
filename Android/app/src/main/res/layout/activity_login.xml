@@ -20,8 +20,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="48dp"
         android:background="@drawable/btn_login"
-        android:enabled="false"
-        android:text="@string/action_sign_in_short"
+        android:text="SE CONNECTER"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
@@ -37,7 +36,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/rounded_edittext"
-        android:hint="@string/prompt_password"
+        android:hint="Mot de Passe"
 
         android:imeActionLabel="@string/action_sign_in_short"
         android:imeOptions="actionDone"
@@ -82,9 +81,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="177dp"
+        android:layout_width="198dp"
 
-        android:layout_height="139dp"
+        android:layout_height="197dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -99,14 +98,14 @@
         android:layout_marginTop="24dp"
         android:textColor="#000000"
         android:text="@string/login_signup"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/etPasswordReset"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
         app:layout_constraintVertical_bias="0.125" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/etPasswordReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"

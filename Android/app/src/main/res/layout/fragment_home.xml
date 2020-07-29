@@ -5,32 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".mainpage.ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment">
+
+    <Button
+        android:id="@+id/addanimalboutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="Rajouter Animal" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/animal1"
         android:layout_width="match_parent"
         android:layout_height="173dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="5dp"
         android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
-        app:cardCornerRadius="8dp"
-        >
+        app:cardCornerRadius="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="168dp"
             android:background="@drawable/background1"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="28dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 android:text="Animal 1"
                 android:textColor="#ffff"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="10dp">
-            </TextView>
+                android:textSize="28dp"></TextView>
 
         </LinearLayout>
 

@@ -9,8 +9,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="login_signup">Don\'t have an account ? Sign Up Now</string>
-    <string name="password_forgoten">Forgot Password?</string>
+    <string name="login_signup">Vous n\'avez pas de compte ? S\'inscrire</string>
+    <string name="password_forgoten">Mot de passe oublié?</string>
     <string name="title_activity_main_menu">MainMenuActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -18,6 +18,9 @@
     <string name="title_appointment">Appointment</string>
     <string name="title_chatbot">Chatbot</string>
     <string name="action_sign_up_short">Sign Up</string>
-    <string name="signup_login">Already have an account ? Login</string>
-    <string name="prompt_name">Full Name</string>
+    <string name="signup_login">Vous avez déjà un compte ? Se connecter </string>
+    <string name="prompt_name">Name</string>
+    <string name="com_auth0_client_id">v4WxpHisJSL293z5rvYiwDrzct4i8bK5</string>
+    <string name="com_auth0_domain">vetolibautho.eu.auth0.com</string>
+    <string name="animal_details_title">Carnet de Santé</string>
 </resources>

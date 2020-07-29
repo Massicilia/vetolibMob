@@ -10,15 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.signup.SingUpActivity"
-            android:theme="@style/Theme.Design.Light.NoActionBar">
-        </activity>
+            android:name=".ui.healthbookmodification.HealthBookModificationActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"/>
         <activity
-            android:name=".mainpage.MainMenuActivity"
+            android:name=".ui.animalinscription.AnimalInscriptionActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".ui.animalhealthbook.AnimalHealthBookActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".ui.signup.SingUpActivity"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
+        <activity
+            android:name=".ui.MainMenuActivity"
             android:label="@string/title_activity_main_menu"
             android:theme="@style/Theme.MaterialComponents.Light.NoActionBar" />
         <activity
-            android:name=".mainpage.MainActivity"
+            android:name=".MainActivity"
             android:theme="@style/Theme.Design.NoActionBar" />
         <activity
             android:name=".ui.login.LoginActivity"
@@ -31,5 +39,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mainpage.ui.chatbot.ChatbotFragment">
+    tools:context=".ui.chatbot.ChatbotFragment">
 
    <com.stfalcon.chatkit.messages.MessageInput
        android:id="@+id/input"
